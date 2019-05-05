@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+html {
+	width: 100%;
+	height:  100%;
+	background-image: linear-gradient(#999999, white, #999999);	
+	
+}
+header {
+	width:90%;
+	position:relative;
+	left:5%;
+	right:5%;
+	height:50px;
+	background-color:black; 
+	text-align: center; 
+	font-size: 45px;
+	border-radius: 0px 0px 200px 0px;
+	color:red;
+	font-family: 'Quattrocento', serif;
+	border: 2px solid white;
+	padding-top: 15px;
+}
+
+
+ footer {
+	width:90%;
+	position:relative;
+	left:5%;
+	right:5%;
+	height:50px;
+	background-color:black; 
+	text-align: center; 
+	font-size: 25px;
+	border-radius: 0px 0px 200px 200px;
+	color:white;
+	font-family: 'Quattrocento', serif;
+	border: 2px solid white;
+	padding-top: 15px;
+}
+nav {
+	width:90%;
+	position:relative;
+	border-radius: 0px 200px 20px 20px;
+	left:5%;
+	right:5%;
+	height:40px;
+	background-image: linear-gradient(white, black, white);	
+	text-align: center;		
+	padding-top: 12px;
+	color: white;
+}
+
+nav a {
+	position:relative;
+	display: inline-block;
+	background-image: linear-gradient(white, black, white);	
+	height:20px;
+	width:300px;
+	padding-top: 4px;
+	border: 1px solid white;
+	text-decoration: none;
+	color: white; 
+	font-family: 'Quattrocento', serif;
+}
+
+nav a:hover {
+	background-image: linear-gradient(white, red, white);	
+	color: black;
+	font-weight: bold; 
+}
+
+
+#contenido {
+	width:90%;
+	position:relative;
+	left:5%;
+	right:5%;
+	height: 500px; 
+	border-radius: 100px 100px 100px 100px;
+
+}
+section {
+	position:absolute;
+	height:500px;
+	width:80%;
+	background-image: linear-gradient(to right, black,black,black,black,black,black,black); 
+	display: block;
+	overflow-y: hidden;
+	
+}
+aside {
+	position:absolute;
+	left:60%;
+	height:500px;
+	width:40%;
+	background-image: linear-gradient(to left, black,black,black,black,black,black,black); 
+	display:block;
+	font-family: 'Gloria Hallelujah', cursive;
+	color: red;
+	font-size: 24px;
+	text-indent: 10px;
+	margin-right: 10px;
+}
+article {
+	position: relative;
+	width: 300px;
+	display: inline-block;
+	background-color: transparent;
+	height: 200px;
+	margin: 10px;
+}
+
